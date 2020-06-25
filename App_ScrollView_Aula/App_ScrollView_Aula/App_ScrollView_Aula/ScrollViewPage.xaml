@@ -6,12 +6,12 @@
              mc:Ignorable="d"
              x:Class="App_ScrollView_Aula.ScrollViewPage">
     
-    <ScrollView>
+    <!--<ScrollView>
         <StackLayout Spacing="10">
             <BoxView Color="Blue" HeightRequest="500" WidthRequest="200" />
             <BoxView Color="Yellow" HeightRequest="500" WidthRequest="200" />
             <BoxView Color="Red" HeightRequest="500" WidthRequest="200" />
         </StackLayout>
-    </ScrollView>
+    </ScrollView>-->
 
 </ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_ScrollView_Aula.Exercicio_ScrollView1">
+
+    <!--<ScrollView>
+        <StackLayout Spacing="20">
+            <Button Text="Button1" BackgroundColor="Yellow"/>
+            <Button Text="Button2" BackgroundColor="Yellow"/>
+            <Button Text="Button3" BackgroundColor="Yellow"/>
+            <Button Text="Button4" BackgroundColor="Yellow"/>
+            <Button Text="Button5" BackgroundColor="Yellow"/>
+            <Button Text="Button6" BackgroundColor="Yellow"/>
+            <Button Text="Button7" BackgroundColor="Yellow"/>
+            <Button Text="Button8" BackgroundColor="Yellow"/>
+            <Button Text="Button9" BackgroundColor="Yellow"/>
+            <Button Text="Button10" BackgroundColor="Yellow"/>
+            <Button Text="Button11" BackgroundColor="Yellow"/>
+            <Button Text="Button12" BackgroundColor="Yellow"/>
+            <Button Text="Button13" BackgroundColor="Yellow"/>
+            <Button Text="Button14" BackgroundColor="Yellow"/>
+            <Button Text="Button15" BackgroundColor="Yellow"/>
+            <Button Text="Button16" BackgroundColor="Yellow"/>
+            <Button Text="Button17" BackgroundColor="Yellow"/>
+            <Button Text="Button18" BackgroundColor="Yellow"/>
+            <Button Text="Button19" BackgroundColor="Yellow"/>
+            <Button Text="Button20" BackgroundColor="Yellow"/>
+            <Button Text="Button21" BackgroundColor="Yellow"/>
+            <Button Text="Button22" BackgroundColor="Yellow"/>
+            <Button Text="Button23" BackgroundColor="Yellow"/>
+            <Button Text="Button24" BackgroundColor="Yellow"/>
+            <Button Text="Button25" BackgroundColor="Yellow"/>
+        </StackLayout>
+    </ScrollView>-->
+
+</ContentPage>

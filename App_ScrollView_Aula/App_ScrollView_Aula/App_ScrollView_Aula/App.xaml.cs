@@ -10,7 +10,7 @@ namespace App_ScrollView_Aula
         {
             InitializeComponent();
 
-            MainPage = new ScrollViewPage();
+            MainPage = new Galeria();
         }
 
         protected override void OnStart()
