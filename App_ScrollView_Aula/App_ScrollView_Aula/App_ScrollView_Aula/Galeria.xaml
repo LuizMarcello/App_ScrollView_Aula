@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="App_ScrollView_Aula.Galeria">
 
-    <ScrollView>
+    <!--<ScrollView>
         <StackLayout>
             <Image Source="http://www.macoratti.net/Imagens/cidades/cidade1.jpg" 
                WidthRequest="250" HeightRequest="250" Aspect="AspectFill"/>
@@ -32,7 +32,7 @@
             <Image Source="http://www.macoratti.net/Imagens/cidades/vale1.jpg" 
                WidthRequest="250" HeightRequest="250" Aspect="AspectFill"/>
         </StackLayout>
-    </ScrollView>
+    </ScrollView>-->
 
 </ContentPage>
     

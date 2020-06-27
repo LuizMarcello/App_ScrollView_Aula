@@ -15,23 +15,27 @@ namespace App_ScrollView_Aula
         {
             InitializeComponent();
 
-            List<string> lista = GetImagens();
+            List<string> liista = GetImagens();
 
-            StackLayout stack = new StackLayout();
-            stack.Spacing = 10;
+            //StackLayout stack = new StackLayout();
+            //stack.Spacing = 10;
 
-            for (int i = 0; i < lista.Count; i++)
+            var stack = new StackLayout
             {
-                stack.Children.Add(new Image
-                {
-                    Source = lista[i],
-                    HeightRequest = 300,
-                    WidthRequest = 300,
-                    Aspect = Aspect.AspectFill
+                Spacing = 10
+            };
+
+            for (int i = 0; i < liista.Count; i++)
+            {
+                stack.Children.Add(new Image { 
+                Source = liista[i],
+                HeightRequest = 300,
+                WidthRequest = 300,
+                Aspect = Aspect.AspectFill
                 });
             }
 
-            ScrollView scroll = new ScrollView 
+            ScrollView scroll = new ScrollView
             {
                 Content = stack
             };
@@ -39,9 +43,9 @@ namespace App_ScrollView_Aula
             Content = scroll;
         }
 
-        public List<string> GetImagens()
+        public List<String> GetImagens()
         {
-            List<string> Lista = new List<string>();
+            List<String> Lista = new List<string>();
             Lista.Add("http://www.macoratti.net/Imagens/cidades/cidade1.jpg");
             Lista.Add("http://www.macoratti.net/Imagens/cidades/cidade2.jpg");
             Lista.Add("http://www.macoratti.net/Imagens/cidades/cidade3.jpg");
@@ -54,6 +58,13 @@ namespace App_ScrollView_Aula
         }
     }
 }
+
+
+                
+
+
+
+
 
 
 
